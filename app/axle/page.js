@@ -7,7 +7,7 @@ import RootLayout from '../layout';
 
 function Axles() {
     return (
-        <RootLayout>
+        <>
             <Head>
                 <title>Axles</title>
             </Head>
@@ -21,7 +21,7 @@ function Axles() {
             </main>
 
 
-        </RootLayout>
+        </>
     );
 }
 

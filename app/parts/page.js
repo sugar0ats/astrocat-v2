@@ -7,7 +7,7 @@ import RootLayout from '../layout';
 
 function Parts() {
     return (
-        <RootLayout>
+        <>
             <Head>
                 <title>Parts</title>
             </Head>
@@ -21,7 +21,7 @@ function Parts() {
             </main>
 
 
-        </RootLayout>
+        </>
     );
 }
 

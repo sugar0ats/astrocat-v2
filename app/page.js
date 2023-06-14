@@ -10,20 +10,18 @@ import RootLayout from './/layout';
 
 function Home() {
   return (
-    <RootLayout home>
       <main className={styles.main}>
 
-      <div className={styles.center}>
-        <h1>Astrocat Teaches VEX </h1>
+        <div className={styles.center}>
+          <h1>Astrocat Teaches VEX </h1>
+        </div>
         
-      </div>
-      <p className="content">
-         "let's learn to build robots!"
-      </p>
+        <p className="content">
+          "let's learn to build robots!" - astrocat
+        </p>
 
-      <TopicList/>
+        <TopicList/>
       </main>
-    </RootLayout>
   );
 }
 

@@ -7,7 +7,7 @@ import RootLayout from '../layout';
 
 function IntroToVex() {
     return (
-        <RootLayout>
+        <>
             <Head>
                 <title>Intro To VEX</title>
             </Head>
@@ -21,7 +21,7 @@ function IntroToVex() {
             </main>
 
 
-        </RootLayout>
+        </>
     );
 }
 

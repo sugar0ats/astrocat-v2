@@ -14,59 +14,36 @@ export const metadata = {
 export default function RootLayout({ children, home }) {
   return (
     <html>
-     <body>
-     <Head>
+      <Head>
         <title>ASTROCAT TEACHES VEX</title>
       </Head>
 
-      <header>
-        {
-          home ? (
-            <>
-              <Image
-              
-              src="/astrocatpfp.jpeg"
-              height={300}
-              width={300}
-              alt="astro cat"
-            />
-            </>
-            
-          ) : (
-            
-            <>
+     <body>
 
-              <Image
-            
-              src="/astrocatpfp.jpeg"
-              height={200}
-              width={200}
-              alt="astro cat"
-            />
-            </>
-            
-          )
-        }
+        {/* <Image
+      
+          src="/astrocatpfp.jpeg"
+          height={200}
+          width={200}
+          alt="astro cat"
+        /> */}
 
-      </header>
+      <Link href="/" >
+        <Image
+          src="/astrocatpfp.jpeg"
+          height={200}
+          width={200}
+          alt="astro cat"
+        />
+      </Link>
 
-     
+        
+      {children}
 
-      <main>{children}</main>
+      
 
-      {
-        !home && (
-          <div>
-            <Link
-              href="/"
-              
-            >
-              <button className="backButton">back</button>
-            </Link>
-          </div>
-        )
-      }
      </body>
+     
      
     </html>
   )

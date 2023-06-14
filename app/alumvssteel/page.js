@@ -7,7 +7,7 @@ import RootLayout from '../layout';
 
 function AlumSteel() {
     return (
-        <RootLayout>
+        <>
             <Head>
                 <title>alum and steel</title>
             </Head>
@@ -21,7 +21,7 @@ function AlumSteel() {
             </main>
 
 
-        </RootLayout>
+        </>
     );
 }
 
