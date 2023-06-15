@@ -1,3 +1,15 @@
+cosmo the astronaut cat teaches vex robotics (i really wanna finish this project so i am writing this to hold myself accountable!)
+
+planning to feature 3-4 unity games ill embed into the website, hopefully it'll be seamless!
+
+all current assets are grabbed from internet BUT i will draw some custom logos and pictures soon!!! 
+
+YAY SUMMMER PROJECTS
+
+i'm learning so much :)))
+
+_____________
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
