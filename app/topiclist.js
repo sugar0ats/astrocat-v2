@@ -10,8 +10,8 @@ function TopicList() {
                     ["aluminum vs. steel", "/alumvssteel"], 
                     ["parts galore", "/parts"],
                     ["what goes on an axle?", "/axle"],
-                    "gear ratios",
-                    "programming 101"];
+                    ["gear ratios", "/gearratios"],
+                    ["programming 101", "/programming101"]];
 
     return (
       <>

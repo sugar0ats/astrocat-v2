@@ -116,18 +116,25 @@
   position: relative;
   padding-top: 1rem;
   padding-bottom: 0;
+  margin-bottom: 0;
   font-family: Alanis;
   font-size: 4rem;
   color: white;
 }
 
-.center::before {
+.content {
+  margin: top 0rem;
+  padding-top: 0rem;
+  
+}
+
+/* .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
   width: 480px;
   height: 360px;
   margin-left: -400px;
-}
+} 
 
 .center::after {
   background: var(--primary-glow);
@@ -143,7 +150,9 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
-}
+} */
+
+
 
 .logo {
   position: relative;

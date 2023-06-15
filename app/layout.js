@@ -31,9 +31,11 @@ export default function RootLayout({ children, home }) {
       <Link href="/" >
         <Image
           src="/astrocatpfp.jpeg"
+          className="centerImage"
           height={200}
           width={200}
           alt="astro cat"
+          priority
         />
       </Link>
 

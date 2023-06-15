@@ -5,6 +5,13 @@
   font-weight: 100;
 }
 
+@font-face {
+  font-family: 'FiraCode';
+  src: url('../public/FiraCode.ttf');
+  font-style:normal;
+  font-weight: 100;
+}
+
 html {
     margin:0;
     height:100%;
@@ -37,8 +44,44 @@ html {
   
 }
 
+.centerImage {
+  border-radius: 50%;
+}
+
 .content {
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.5rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.speechArrow {
+  margin: 1rem;
+  opacity: 1;
+  animation: fade 1.5s infinite;
+
+}
+
+@keyframes fade {
+  0%, 100% {opacity: 0}
+  50% {opacity: 1}
+}
+
+.speechBubble {
+  border: white solid 10px;
+  color: white;
+  border-radius: 2rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-family: FiraCode;
+  font-style: bold;
+  background-color: rgba(164, 204, 238, 0.566);
 }
