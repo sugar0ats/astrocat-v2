@@ -54,6 +54,40 @@ html {
   font-size: 1.5rem;
 }
 
+.image {
+  margin: 4rem;
+  border: white solid 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  transform: rotate();
+  background-color: white;
+  filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.347));
+  
+}
+
+.image {
+  transform: rotate(-3deg);
+}
+
+.image:nth-child(2n) {
+  transform: rotate(-2deg);
+}
+
+.image:nth-child(3n) {
+  transform: rotate(3deg);
+}
+
+.image:nth-child(4n) {
+  transform: rotate(5deg);
+}
+
+.paper {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 3rem;
+  margin: 3rem;
+}
+
 .subtitle {
   text-transform: uppercase;
   color: white;
@@ -84,4 +118,6 @@ html {
   font-family: FiraCode;
   font-style: bold;
   background-color: rgba(164, 204, 238, 0.566);
+  margin-bottom: 1.5rem;
 }
+
