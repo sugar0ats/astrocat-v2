@@ -48,6 +48,29 @@ html {
   border-radius: 50%;
 }
 
+.column {
+  float:left;
+  width: 46%;
+  margin: auto;
+  background-color: white;
+   padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 1.5rem; 
+}
+
+.columnIcon {
+  float: left;
+  padding-bottom:2rem;
+}
+
+.columnTitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+  padding: 2rem;
+  font-size: 2rem;
+  
+}
+
 .content {
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,13 +78,13 @@ html {
 }
 
 .image {
-  margin: 4rem;
+  margin: 4rem auto;
   border: white solid 12px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  transform: rotate();
   background-color: white;
   filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.347));
+  width: 60%;
   
 }
 
@@ -86,6 +109,14 @@ html {
   font-family: 'Courier New', Courier, monospace;
   padding: 3rem;
   margin: 3rem;
+}
+
+.row {
+  background-color: white;
+  margin: 1rem auto;
+  
+  
+
 }
 
 .subtitle {
@@ -114,10 +145,14 @@ html {
   color: white;
   border-radius: 2rem;
   padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   font-size: 1.5rem;
   font-family: FiraCode;
   font-style: bold;
   background-color: rgba(164, 204, 238, 0.566);
   margin-bottom: 1.5rem;
+  margin: auto;
+  width: 75%;
 }
 
