@@ -42,6 +42,14 @@
   padding-right: 3rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.topicbutton:hover {
+  background: white;
+  color: black;
+  
 }
 
 .description {
